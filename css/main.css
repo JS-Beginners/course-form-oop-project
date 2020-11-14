@@ -1,0 +1,44 @@
+:root {
+  --mainWhite: #f7f9f9;
+  --mainBrown: #a76d60;
+  --darkBrown: #601700;
+}
+body {
+  background: var(--mainWhite);
+}
+.input-group-text {
+  background: var(--mainBrown);
+  color: var(--mainWhite);
+  border-color: var(--mainBrown);
+}
+.form-control {
+  border: 0.2rem solid var(--mainBrown);
+}
+.submitBtn {
+  color: var(--darkBrown);
+  background: var(--mainWhite);
+  border: 0.2rem solid var(--darkBrown);
+  transition: all 1s ease-in-out;
+}
+.submitBtn:hover {
+  background: var(--darkBrown);
+  color: var(--mainWhite);
+}
+.fail {
+  border-color: red;
+}
+.complete {
+  border-color: green;
+}
+.feedback {
+  display: none;
+}
+.loading {
+  display: none;
+}
+:disabled {
+  opacity: 0.2 !important;
+}
+.showItem {
+  display: block;
+}
